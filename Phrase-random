@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+while read linha ; do 
+      echo . 
+          quantidade_de_palavras=$(tr -s "+" " " <<< $linha | wc -w)  
+               for seq in $(tr -s "+" " " <<< $linha) ; do
+	       
+	       quantas_palavras_do_banco=$(./U-definitivo2 | grep $seq | awk -F"," '{print $2}' | tail -n 1 | awk -F":" '{print $2}' | tr -d " ") 
+	       ./U-definitivo2 | grep $seq | awk -F"," '{print $2,$3}' | tr -d "[A-za-z]:" | grep [0-9] | tr -s "^ " " " | sed "s/ //" | tr -s " " "=" > number_lines.txt 
+	       numero_da_linha_aleatoria=$(expr 1 + $RANDOM % $quantas_palavras_do_banco) 
+               
+	      numero_da_linha_banco=$(grep ^"$numero_da_linha_aleatoria" number_lines.txt | awk -F"=" '{print $2}') 
+	   
+      	  sed -n "$numero_da_linha_banco p" Banco-words.txt | awk -F"=" '{print $1}' 
+	       
+	       done 
+done < formulas.txt 
+  
+  

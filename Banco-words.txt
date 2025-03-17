@@ -1,0 +1,72 @@
+---possibilidade 3
+Tudo=possibilidade 
+Qual=possibilidade 
+Será=possibilidade 
+---conexão 7 
+é=conexão 
+o=conexão 
+de=conexão 
+do=conexão
+e=conexão 
+da=conexão 
+para=conexão 
+---afirmação 4
+Melhor=afirmação 
+Certo=afirmação
+Correto=afirmação
+Sim=afirmação
+---marcação 5
+Horário=marcação 
+Relogio=marcação
+Horário=marcação
+Direita=marcação
+Esquerda=marcação
+---energia 4
+Dormir=energia
+Acordar=energia
+Desligar=energia 
+Ativar=energia
+---negação 2
+não
+nenhum 
+---pergunta 2
+porque?=pergunta
+é?=pergunta 
+---lugar 8 
+Rio de janeiro=lugar
+Salvador=lugar
+Recife=lugar
+Amazonas=lugar
+Santa Catarina=lugar
+Ubatã=lugar
+Sergipe=lugar
+Maceio=lugar
+---nomes 13 
+Alexandre=nomes
+Lucas=nomes
+Beatriz=nomes
+Marcos=nomes
+Jesus=nomes
+Deus=nomes
+Anti cristo=nomes
+Demônio=nomes
+Loana=nomes
+Maria=nomes
+Fabricio=nomes
+Pedro=nomes
+João=nomes
+---superioridade 5
+Rei=superioridade 
+Eminência=superioridade
+Excelência=superioridade
+Alteza=superioridade
+Supremacia=superioridade
+---cores 7
+Azul=cores
+Vermelho=cores
+Laranja=cores
+Roxo=cores
+Amarelo=cores
+Verde=cores 
+Rosa=cores
+---  
